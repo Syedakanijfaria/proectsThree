@@ -1,0 +1,10 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-color:#FEEAE9;   
+}
+.gray-1 img{
+    filter: grayscale(100%);
+}
