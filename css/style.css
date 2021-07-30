@@ -1,6 +1,9 @@
 body{
-    font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+p{
+    font-weight:lighter;
+    font-size: small;
 }
 .banner{
     background-color:#264653;
@@ -27,5 +30,25 @@ body{
 }
 .honda-btn{
     background: #E76F51;
+    color: white;
 }
-
+.red-text{
+    color:#E76F51;
+    font-weight: bold;
+}
+.fre-text{
+    font-family: 'Inter', sans-serif;
+}
+.fre-text p{
+    font-weight: normal;
+    font-size: normal;
+}
+.fre-text h1{
+    font-weight: bold;
+}
+.fre-text button{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
