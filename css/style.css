@@ -3,8 +3,29 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .banner{
-    background-color:#FEEAE9;   
+    background-color:#264653;
+    color: white;
 }
 .gray-1 img{
     filter: grayscale(100%);
 }
+.gray-2 img{
+    filter: grayscale(70%);
+}
+.footer-bg{
+    background-color: #0B0D17;
+}
+.fa-star{
+    font-size: 12px;
+    color: #E77C40;
+}
+.fa-star.filled{
+    color: #E77C40;
+}
+.fa-star.empty{
+    color: white;
+}
+.honda-btn{
+    background: #E76F51;
+}
+
