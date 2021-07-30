@@ -9,33 +9,28 @@ p{
     background-color:#264653;
     color: white;
 }
+.modal-talk{
+    color: black;
+}
 .gray-1 img{
     filter: grayscale(100%);
 }
 .gray-2 img{
     filter: grayscale(70%);
 }
-.footer-bg{
-    background-color: #0B0D17;
-}
-.fa-star{
-    font-size: 12px;
-    color: #E77C40;
-}
-.fa-star.filled{
-    color: #E77C40;
-}
-.fa-star.empty{
-    color: white;
-}
 .honda-btn{
     background: #E76F51;
     color: white;
+    background-image: linear-gradient(45deg,rgb(219, 5, 112), #E76F51);
 }
 .red-text{
     color:#E76F51;
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+}
+/*-------------------------Question section----------------*/
 .fre-text{
     font-family: 'Inter', sans-serif;
 }
@@ -49,6 +44,17 @@ p{
 .fre-text button{
     font-weight: bold;
 }
-a{
-    text-decoration: none;
+/*----------------footer section----------- */
+.footer-bg{
+    background-color: #0B0D17;
+}
+.fa-star{
+    font-size: 12px;
+    color: #E77C40;
+}
+.fa-star.filled{
+    color: #E77C40;
+}
+.fa-star.empty{
+    color: white;
 }
