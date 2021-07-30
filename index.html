@@ -60,8 +60,8 @@
     </header>
     <!--------banner text----------->
     <section class="container-fluid mb-5">
-        <div class="row banner">
-            <div class="col-lg-6 col-12">
+        <div class="row banner d-flex flex-lg-row justify-content-evenly align-items-center">
+            <div class="col-lg-5 col-12">
                 <p>Computer-controlled digital transistorized with electronic advance</p>
                 <h1>Honda CBR 300R</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ipsum, cupiditate ullam sequi vel
@@ -71,7 +71,6 @@
                 <button type="button" class="btn honda-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Purchase
                 </button>
-
                 <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -95,8 +94,8 @@
                 </div>
             </div>
             <!-- bannner imageeeee----------->
-            <div class="col-lg-6 col-12">
-                <img src="images/header-bike.png" alt="" class="w-100">
+            <div class="col-lg-5 col-12">
+                <img src="images/header-bike.png" alt="" class="w-75">
             </div>
         </div>
     </section>
@@ -236,9 +235,10 @@
 
         <!-------------Question section---------------->
         <section class="container mb-5">
+            <h1 class="text-center">Frequently Asked Questions</h1>
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <img src="images/faq.png" alt="" class="img-fluid">
+                    <img src="images/faq.png" alt="" class="w-75">
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="accordion" id="accordionExample">
@@ -380,15 +380,32 @@
 
     <!-------------footer------------>
 
-    <footer class="mt-5 text-center text-white-50 footer-bg pt-5">
+    <footer class="mt-5 text-white-50 footer-bg ">
         <section class="container pt-5 pb-5">
             <div class="row">
-                <div class="col">
-                    <p>Download Now</p>
+                <div class="col-lg-6 col-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Download Now</li>
+                        <li class="list-inline-item">License</li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">About</li>
+                        <li class="list-inline-item">Features</li>
+                        <li class="list-inline-item">Careers</li>
+                        <li class="list-inline-item">Help</li>
+                        <li class="list-inline-item">Pricing</li>
+                        <li class="list-inline-item">Privacy Policy</li>
+                    </ul>
                     <p><small>&copy2020 bike. All rights reserved</small> </p>
                 </div>
-                <div class="col">
-                    <p>Get the App</p>
+                <div class="col-lg-6 col-12">
+                    <h5>Email:</h5>
+                    <p>support@email.com <br> company@email.com</p>
+                    <p>Social links</p>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter-square"></i>
                 </div>
             </div>
         </section>
